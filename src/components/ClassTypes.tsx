@@ -121,12 +121,10 @@ const ClassTypes = () => {
                 </ul>
 
                 {/* CTA Button */}
-                <Button
-                  variant={classType.popular ? "hero" : "outline"}
-                  className="w-full"
-                  onClick={() => scrollToSection("#contacto")}
-                >
-                  Más información
+                <Button asChild variant={classType.popular ? "hero" : "outline"} className="w-full">
+                  <a href="https://wa.me/34611084334?text=Hola%2C%20me%20gustar%C3%ADa%20recibir%20informaci%C3%B3n%20sobre%20vuestros%20servicios.%20Gracias." target="_blank" rel="noopener noreferrer">
+                    Reservar Clase
+                  </a>
                 </Button>
               </div>
             );
@@ -136,8 +134,7 @@ const ClassTypes = () => {
         {/* Additional Info */}
         <div className="text-center mt-12 p-6 bg-background-accent rounded-xl border border-primary/10">
           <p className="text-text-secondary">
-            <strong>¿Primera vez?</strong> Prueba una clase de muestra para conocer mi método. 
-            <br />
+            
             <strong>Política flexible:</strong> Cancela o reprograma con 24h de antelación.
           </p>
         </div>

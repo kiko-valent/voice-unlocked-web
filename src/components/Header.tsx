@@ -85,12 +85,10 @@ const Header = () => {
                   {item.name}
                 </button>
               ))}
-              <Button 
-                variant="hero"
-                onClick={() => scrollToSection("#contacto")}
-                className="mt-4 w-full"
-              >
-                Reservar Clase
+              <Button asChild variant="hero" className="mt-4 w-full">
+                <a href="https://wa.me/34611084334?text=Hola%2C%20me%20gustar%C3%ADa%20recibir%20informaci%C3%B3n%20sobre%20vuestros%20servicios.%20Gracias." target="_blank" rel="noopener noreferrer">
+                  Reservar Clase
+                </a>
               </Button>
             </div>
           </div>

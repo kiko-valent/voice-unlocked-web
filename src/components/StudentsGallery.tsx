@@ -19,20 +19,20 @@ const StudentsGallery = () => {
   const successStories = [
     {
       name: "Laura M.",
-      achievement: "De tímida a cantante en bodas",
-      description: "Comenzó sin experiencia y ahora canta en eventos familiares",
+      achievement: "Nico es un profesor increíble porque identifica muy bien donde puedes mejorar y sabe crear ejercicios personalizados y claros para mejorar la técnica. Tuve muchos profesores pero el destaca sin dudas. Súper recomendable",
+      description: "",
       image: lauraImage
     },
     {
       name: "Roberto S.",
-      achievement: "Superó su miedo escénico",
-      description: "Ahora participa en jam sessions y karaokes con confianza",
+      achievement: "El profesor tiene mucho dominio, es paciente y adapta sus clases a las necesidades de mi hijo. Las notas mejoraron mucho. Muy recomendable.",
+      description: "Padre de alumno",
       image: robertoImage
     },
     {
       name: "Isabella R.",
-      achievement: "Ingresó al conservatorio",
-      description: "Preparó su audición conmigo y fue aceptada en su primera opción",
+      achievement: "Nico es una maravilla! Trabajar con el es divertido, además de que ves todos los recursos de los que dispone para ayudarte a mejorar. Avanzas a tu ritmo, siempre sabiendo qué se está trabajando, pero el lo enfoca al juego, a que lo disfrutes",
+      description: "",
       image: isabellaImage
     }
   ];

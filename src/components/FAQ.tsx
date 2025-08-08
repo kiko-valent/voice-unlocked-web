@@ -37,7 +37,7 @@ const FAQ = () => {
     },
     {
       question: "¿Cómo reservo mi primera clase?",
-      answer: "Es muy simple: contacta conmigo por WhatsApp, teléfono o completa el formulario de contacto. Programamos una primera clase donde conoces mi método y evaluamos tus objetivos. ¡La primera consulta es gratuita!"
+      answer: "Es muy simple: contacta conmigo por WhatsApp, teléfono o completa el formulario de contacto. Programamos una primera clase donde conoces mi método y evaluamos tus objetivos."
     },
     {
       question: "¿Ayudas con el miedo escénico?",
